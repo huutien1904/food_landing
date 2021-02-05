@@ -1,0 +1,26 @@
+:root {
+  --primary-color: #0f9d58;
+  --backgound-color: #f0f3f7;
+  --secon-color: #9da2ad;
+  --grey: #7a7a7a;
+  --white: #ffffff;
+}
+
+* {
+  box-sizing: inherit;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+body,
+html {
+  font-size: 62.5%;
+  line-height: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  position: relative;
+  overflow-x: hidden;
+  /* overflow: hidden; */
+  background-color: var(--backgound-color);
+}
